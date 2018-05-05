@@ -1,4 +1,4 @@
-# Unsupervised_Extreme_Learning_Machine
+# Unsupervised Extreme Learning Machine with Automated Clustering 
 Unsupervised Extreme Learning Machine(ELM) is a non-iterative algorithm used for feature extraction. This method is applied on the IRIS Dataset for non-linear feature extraction, cluster prediction and finally clustering is carried out using k-means.
 
 <h3> Objective </h3>
@@ -25,8 +25,8 @@ To perform non-linear feature learning using Unsuoervised Extreme Learning Machi
 
 <h3> References </h3>
 
-[1] Senthilnath, J.; Simha C, S.; G, N.; Thapa, M.; M, I.	BELMKN: Bayesian Extreme Learning Machines Kohonen Network. Algorithms 2018, 11, 56. 
-Link : http://www.mdpi.com/1999-4893/11/5/56
+[1] Senthilnath, J.; Simha C, S.; G, N.; Thapa, M.; M, I.	BELMKN: Bayesian Extreme Learning Machines Kohonen Network. Algorithms 2018, 11, 56. </br>
+Link : http://www.mdpi.com/1999-4893/11/5/56</br>
 [2] Huang, G.; Song, S.; Gupta, J.N.; Wu, C. Semi-supervised and unsupervised extreme learning machines. IEEE Trans. Cybern. 2014, 44, 2405–2417. 
 
 

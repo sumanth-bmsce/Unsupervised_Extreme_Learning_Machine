@@ -15,6 +15,12 @@ To perform non-linear feature learning using Unsuoervised Extreme Learning Machi
 
 <h3> Results Screenshots </h3>
 
+1. **Clustering Accuracy** : The clustering accuracy achieved for IRIS dataset is 96.67% which was the highest. The number of hidden neurons set was 120.
+
 ![res1](https://github.com/sumanth-bmsce/Unsupervised_Extreme_Learning_Machine/blob/master/ELM_kmeans_ClusteringResult.png)</br>
+
+2. **Cluster Prediction using BIC** : The number of clusters predicted by BIC is 3 which matches the original number of clusters in the Iris Dataset. The number of clusters is found out using the Elbow Criterion from BIC value vs no of clusters graph
+
+![res2](https://github.com/sumanth-bmsce/Unsupervised_Extreme_Learning_Machine/blob/master/BIC_Iris.png)</br>
 
 

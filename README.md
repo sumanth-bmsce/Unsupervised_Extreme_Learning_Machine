@@ -13,4 +13,8 @@ To perform non-linear feature learning using Unsuoervised Extreme Learning Machi
 
 3. **K-means Clustering** : Linearly clustering where input is the feature learning information from Unsupervised ELM and the number of clusters from BIC. Finally, we display the confusion matrix and clustering accuracy.
 
+<h3> Results Screenshots </h3>
+
+![res1](https://github.com/sumanth-bmsce/Unsupervised_Extreme_Learning_Machine/blob/master/ELM_kmeans_ClusteringResult.png)</br>
+
 

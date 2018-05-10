@@ -48,7 +48,7 @@ NOTE : The csv files for the 10 datasets has been uploaded after some preprocess
 1. **Clustering Accuracy for Synthetic Datasets :**
 
 i. For the four class linearly separable dataset, the results for all the methods remain same.
-![res1](https://github.com/sumanth-bmsce/Unsupervised_Extreme_Learning_Machine/blob/master/Four_class_linearly_separable.png)</br>
+![res1](https://github.com/sumanth-bmsce/Unsupervised_Extreme_Learning_Machine/blob/master/Four_class_linearly_separable.tif)</br>
 
 
 2. **Clustering Accuracy for IRIS Dataset** : The clustering accuracy achieved for IRIS dataset is 96.67% which was the highest. The number of hidden neurons set was 120.

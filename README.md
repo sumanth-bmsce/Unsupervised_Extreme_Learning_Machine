@@ -39,7 +39,7 @@ NOTE : Synthetic.py contains the python code for generating synthetic datasets
 7. Iris </br>
 8. Thyroid</br>
 9. Vehicle</br>
-10. Wine</br>
+10. Wine</br></br>
 
 NOTE : The csv files for the 10 datasets has been uploaded after some preprocessing.
 

@@ -1,4 +1,4 @@
-# Unsupervised Extreme Learning Machine with Automated Clustering 
+# BELMKN : Bayesian Extreme Learning Machine Kohonen Network
 Unsupervised Extreme Learning Machine(ELM) is a non-iterative algorithm used for feature extraction. This method is applied on the IRIS Dataset for non-linear feature extraction, cluster prediction and finally clustering is carried out using k-means.
 
 <h3> Objective </h3>
@@ -11,13 +11,37 @@ To perform non-linear feature learning using Unsuoervised Extreme Learning Machi
 
 2. **Bayesian Information Criterion** : Bayesian Information Criterion is a statistical method use dto find out the number of clusters in the dataset. It uses the Expectation Maximization(EM) ALgorithm to find the number of clusters in the dataset. This module is added to automate the process of cluster prediction as for k-means clustering we need to specify priorly the number of clusters.
 
-3.**Techniques used for clustering feature learning information obtained from Unsupervised ELM**
+**Techniques used for clustering feature learning information obtained from Unsupervised ELM**
 
-i. **K-means Clustering** : Linearly clustering where input is the feature learning information from Unsupervised ELM and the number of clusters from BIC. Finally, we display the confusion matrix and clustering accuracy.
+1. **K-means Clustering** : Linearly clustering where input is the feature learning information from Unsupervised ELM and the number of clusters from BIC. Finally, we display the confusion matrix and clustering accuracy.
 
-ii. **Self Organizing Maps / Kohonen Network** : It is a clustering technique developed by Kohonen visualized as a neural network. It has only 2 layers : the input layer and the output layer. The number of input layer neurons is the no of features in the dataset and the number of output neurons is the desired number of clusters.  It updates the weights between the layers based on the neighbourhood concept and the minimum distance criteria. In this implementation a Gaussian neighbourhood is used.
+2. **Self Organizing Maps / Kohonen Network** : It is a clustering technique developed by Kohonen visualized as a neural network. It has only 2 layers : the input layer and the output layer. The number of input layer neurons is the no of features in the dataset and the number of output neurons is the desired number of clusters.  It updates the weights between the layers based on the neighbourhood concept and the minimum distance criteria. In this implementation a Gaussian neighbourhood is used.
 
-iii. **Clustering using Expectation Maximization (EM Algorithm)** : EM clustering is a soft clustering technique whereas the above two mentioned methods are hard clustering methods. In soft clustering, instead of putting each data point into a separate cluster, a probability or likelihood of that data point to be in those clusters is assigned. For whichever cluster, the likelihood of that sample is high, the sample is assigned to that particular cluster. 
+3. **Clustering using Expectation Maximization (EM Algorithm)** : EM clustering is a soft clustering technique whereas the above two mentioned methods are hard clustering methods. In soft clustering, instead of putting each data point into a separate cluster, a probability or likelihood of that data point to be in those clusters is assigned. For whichever cluster, the likelihood of that sample is high, the sample is assigned to that particular cluster. 
+
+<h3> Datasets used for Analysis <h3>
+
+<h4> Synthetic Datasets : </h4>
+
+1. Four Class Linearly Separable Dataset
+2. Flame Shaped Dataset
+3. Face Shaped Dataset
+
+NOTE : Synthetic.py contains the python code for generating synthetic datasets
+
+<h4> UCI Machine learning Repository Datasets </h4> 
+1. Cancer
+2. Dermatology
+3. E.Coli
+4. Glass
+5. Heart
+6. Horse
+7. Iris 
+8. Thyroid
+9. Vehicle
+10. Wine
+
+NOTE : The csv files for the 10 datasets has been uploaded after some preprocessing.
 
 <h3> Results Screenshots </h3>
 

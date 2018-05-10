@@ -11,7 +11,13 @@ To perform non-linear feature learning using Unsuoervised Extreme Learning Machi
 
 2. **Bayesian Information Criterion** : Bayesian Information Criterion is a statistical method use dto find out the number of clusters in the dataset. It uses the Expectation Maximization(EM) ALgorithm to find the number of clusters in the dataset. This module is added to automate the process of cluster prediction as for k-means clustering we need to specify priorly the number of clusters.
 
-3. **K-means Clustering** : Linearly clustering where input is the feature learning information from Unsupervised ELM and the number of clusters from BIC. Finally, we display the confusion matrix and clustering accuracy.
+3.**Techniques used for clustering feature learning information obtained from Unsupervised ELM**
+
+i. **K-means Clustering** : Linearly clustering where input is the feature learning information from Unsupervised ELM and the number of clusters from BIC. Finally, we display the confusion matrix and clustering accuracy.
+
+ii. **Self Organizing Maps / Kohonen Network** : It is a clustering technique developed by Kohonen visualized as a neural network. It has only 2 layers : the input layer and the output layer. The number of input layer neurons is the no of features in the dataset and the number of output neurons is the desired number of clusters.  It updates the weights between the layers based on the neighbourhood concept and the minimum distance criteria. In this implementation a Gaussian neighbourhood is used.
+
+iii. **Clustering using Expectation Maximization (EM Algorithm)** : EM clustering is a soft clustering technique whereas the above two mentioned methods are hard clustering methods. In soft clustering, instead of putting each data point into a separate cluster, a probability or likelihood of that data point to be in those clusters is assigned. For whichever cluster, the likelihood of that sample is high, the sample is assigned to that particular cluster. 
 
 <h3> Results Screenshots </h3>
 

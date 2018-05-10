@@ -30,26 +30,32 @@ To perform non-linear feature learning using Unsuoervised Extreme Learning Machi
 NOTE : Synthetic.py contains the python code for generating synthetic datasets
 
 <h4> UCI Machine learning Repository Datasets </h4> 
-1. Cancer
-2. Dermatology
-3. E.Coli
-4. Glass
-5. Heart
-6. Horse
-7. Iris 
-8. Thyroid
-9. Vehicle
-10. Wine
+1. Cancer</br>
+2. Dermatology</br>
+3. E.Coli</br>
+4. Glass</br>
+5. Heart</br>
+6. Horse</br>
+7. Iris </br>
+8. Thyroid</br>
+9. Vehicle</br>
+10. Wine</br>
 
 NOTE : The csv files for the 10 datasets has been uploaded after some preprocessing.
 
 <h3> Results Screenshots </h3>
 
-1. **Clustering Accuracy** : The clustering accuracy achieved for IRIS dataset is 96.67% which was the highest. The number of hidden neurons set was 120.
+1. **Clustering Accuracy for Synthetic Datasets :**
+
+i. For the four class linearly separable dataset, the results for all the methods remain same.
+![res1](https://github.com/sumanth-bmsce/Unsupervised_Extreme_Learning_Machine/blob/master/Four_class_linearly_separable.png)</br>
+
+
+2. **Clustering Accuracy for IRIS Dataset** : The clustering accuracy achieved for IRIS dataset is 96.67% which was the highest. The number of hidden neurons set was 120.
 
 ![res1](https://github.com/sumanth-bmsce/Unsupervised_Extreme_Learning_Machine/blob/master/ELM_kmeans_ClusteringResult.png)</br>
 
-2. **Cluster Prediction using BIC** : The number of clusters predicted by BIC is 3 which matches the original number of clusters in the Iris Dataset. The number of clusters is found out using the Elbow Criterion from BIC value vs no of clusters graph.
+3. **Cluster Prediction using BIC** : The number of clusters predicted by BIC is 3 which matches the original number of clusters in the Iris Dataset. The number of clusters is found out using the Elbow Criterion from BIC value vs no of clusters graph.
 
 ![res2](https://github.com/sumanth-bmsce/Unsupervised_Extreme_Learning_Machine/blob/master/BIC_Iris.png)</br>
 

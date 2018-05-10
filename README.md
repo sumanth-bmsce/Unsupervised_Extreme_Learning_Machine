@@ -45,10 +45,19 @@ NOTE : The csv files for the 10 datasets has been uploaded after some preprocess
 
 <h3> Results Screenshots </h3>
 
-1. **Clustering Accuracy for Synthetic Datasets :**
+1. **Clustering Results for Synthetic Datasets :**
 
-i. For the four class linearly separable dataset, the results for all the methods remain same.
+i. For the four class linearly separable dataset, the results for all the methods remain same.</br></br>
+
 ![syn1](https://github.com/sumanth-bmsce/Unsupervised_Extreme_Learning_Machine/blob/master/Four_class_linearly%20_separable.tif)</br>
+
+ii. Flame shaped Dataset Clustering Results</br></br>
+
+![syn2](https://github.com/sumanth-bmsce/Unsupervised_Extreme_Learning_Machine/blob/master/Results_Flame_Dataset.tif)</br>
+
+iii. Face Shaped Dataset Result</br></br>
+
+![syn3](https://github.com/sumanth-bmsce/Unsupervised_Extreme_Learning_Machine/blob/master/Results_Face_Datset.tif)</br>
 
 
 2. **Clustering Accuracy for IRIS Dataset** : The clustering accuracy achieved for IRIS dataset is 96.67% which was the highest. The number of hidden neurons set was 120.

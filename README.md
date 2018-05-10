@@ -3,7 +3,7 @@ Unsupervised Extreme Learning Machine(ELM) is a non-iterative algorithm used for
 
 <h3> Objective </h3>
 
-To perform non-linear feature learning using Unsuoervised Extreme Learning Machine, predicting the number of clusters in the dataset using Bayesian Information Criterion (BIC) and finally clustering using k-means
+To perform non-linear feature learning using Unsuoervised Extreme Learning Machine, predicting the number of clusters in the dataset using Bayesian Information Criterion (BIC) and finally clustering using k-means, Self Organizing Maps / Kohonen Network and EM Algorithm
 
 <h3> Modules </h3>
 
